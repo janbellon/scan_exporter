@@ -23,7 +23,6 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=true
-ReadWritePaths=/var/lib/ufw-exporter
 
 [Install]
 WantedBy=multi-user.target

@@ -20,7 +20,7 @@ source /var/env/bin/python3
 pip install prometheus-client
 ```
 
-Create a systemd service
+Create a systemd service in `/etc/systemd/system/scan_exporter`
 ```ini
 [Unit]
 Description=Prometheus Scan Exporter
@@ -47,7 +47,6 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=true
-ReadWritePaths=/var/lib/ufw-exporter
 
 [Install]
 WantedBy=multi-user.target
