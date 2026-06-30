@@ -1,5 +1,5 @@
 # scan_exporter
-A simple number of connections exporter per IP based on UFW blocked logs.
+A basic Prometheus exporter that counts the number of connections per port and source ip for the last hour.
 
 ## Installation
 Download the latest script
